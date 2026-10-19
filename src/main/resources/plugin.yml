@@ -1,0 +1,19 @@
+name: CocardosPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin to collect and display cocardos in Minecraft
+api-version: "1.21"
+commands:
+  cocardos:
+    description: Manage your cocardos
+    usage: /cocardos
+  equip:
+    description: Equip a cocardo
+    usage: /equip <cocardo>
+  share:
+    description: Share a cocardo with another player
+    usage: /share <player> <cocardo>
+  create:
+    description: Create a custom cocardo
+    usage: /create <design>
